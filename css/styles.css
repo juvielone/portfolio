@@ -1,0 +1,417 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+
+
+/* Navbar */
+
+.head-nav{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/pic/galaxy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.main-nav{
+    padding-top: 2rem;
+}
+
+.nav-item{
+    margin: 0px 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Header Section */
+
+#header-section{
+    padding: 0;
+    margin: 0;
+    height: 35rem;
+    
+    
+    
+    
+}
+
+
+
+.head-row{
+  
+    position: absolute;
+    top: 38%;
+    width:100%;
+    text-align: center;
+   padding-top: 4rem;
+}
+
+.head-name, .head-passion{
+    color: white;
+    position: relative;
+    bottom: 22%;
+    text-align: center;
+    width: 100%;
+  
+}
+
+.head-name{
+   
+    font-family: 'Orelega One', cursive;
+    font-size: 65px;
+}
+
+.head-passion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    letter-spacing:2px;
+  
+}
+
+
+
+/* 
+.logo{
+    position: relative;
+    top: 78%;
+    width: 12%;
+    padding: 0;
+    margin: 0;
+   
+} */
+
+
+
+/* Body Section */
+
+
+#body-section{
+    background-color: #3282B8;
+    color: white;
+    padding-top: 7%;
+}
+
+
+.body-intro{
+    font-family: 'Orelega One', cursive;
+    font-size: 50px;
+}
+
+
+.profile{
+    width: 429px;
+    height:447px;
+    border-radius: 257px;
+    padding: 20px;
+}
+/*  */
+
+.spacer{
+    background-color: rebeccapurple;
+    padding-bottom: 3%;
+}
+
+/* ABOUT MY SELF */
+
+
+.section-subheading{
+    width: 60%;
+    
+}
+
+.headshot{
+    position: relative;
+    bottom: 8em;
+}
+
+.text-wrap{
+    width: 60%;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+/* WHAT IDO SECTION */
+.row {
+    margin: 0;
+}
+
+#third-section{
+
+    color: white;
+
+    
+    margin: 0;
+    
+    width: 100%;
+    
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/pic/background3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 5rem;
+}
+
+
+
+/* SKILLS -SECTION */
+
+#skill-section{
+    background-color: #1B262C;
+    color: white;
+}
+
+.skill-tools{
+    padding-top: 19rem;
+}
+
+.icon{
+    width: 8rem;
+}
+
+
+.tool{
+    padding-top:2rem;
+}
+
+
+/* RESUME HR */
+
+.resume{
+    background-color: #3282B8;
+    padding-bottom: 2%;
+}
+
+.res-h1{
+    color: white;
+    font-family: 'Orelega One', cursive;
+    padding-top:1.5rem ;
+    text-align: center;
+}
+
+
+/* SOME OF MY WORKS */
+
+#work-section{
+    background-color: #1B262C; 
+    overflow: hidden;
+    padding-bottom: 3.7rem;
+    
+}
+
+
+.work-h1{
+        color: white;
+        font-family: 'Orelega One', cursive;
+        padding-top:1.5rem ;
+        
+    }
+.work-pic{
+    width: 45rem;
+    padding-top: 5rem;
+    transition: transform .5s ease;
+}
+.work-pic:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.work-desc{
+    margin-top: 8rem;
+}
+
+.h2-work, .p-work{
+    color: white;
+}
+
+
+
+/* GET IN TOUCH */
+
+#contact{
+    color: white;
+    
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/pic/mountain.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 8.8em;
+    padding-bottom: 6rem;
+}
+
+
+.con-form{
+
+    padding-top: 5rem;
+    margin-left: 28%;
+    
+    
+}
+
+.con-input{
+    
+    text-align: center;
+    padding-bottom: 1.8rem;
+    opacity: 0.8;
+
+}
+
+
+/* FOOTER */
+#footer-section{
+    background-color: #3282B8;
+    padding-top: 2.8rem;
+    padding-bottom: 1.8rem;
+    
+}
+
+.con-right{
+    text-align: center;
+}
+
+.icon{
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+
+
+.email-con, .git-con, .insta-icon, .linked{
+    
+    color: rgb(31, 28, 28);
+}
+
+
+
+/* ================================================ */
+
+
+/* SVVG ICONNS */
+
+
+.js-icon:hover{
+    fill: rgb(218, 214, 34);
+}
+
+.html-icon:hover{
+    fill: #E96228;
+}
+
+.css-icon:hover{
+    fill: #2862E9;
+}
+
+.boots-icon:hover{
+    fill: #8412FA;
+}
+
+/* Java */
+.j-body:hover{
+    fill: #448FC5;
+}
+.php-icon:hover{
+    fill: #858EB8;
+}
+.jq-icon:hover{
+    fill: #0766A8;
+}
+
+
+
+
+
+/* Mobile */
+
+@media only screen and (max-width: 728px) {
+
+
+/* 
+    .logo{
+        
+        width: 28%;
+        padding: 0;
+        margin: 0;
+       
+    } */
+
+    /* Navigation */
+
+    .nav-choice{
+        margin-left: 0;
+    }
+
+    .nav-li{
+        margin: 0;
+    }
+
+}
+
+
+
+
+/* MOBILE - ABOUT */
+
+/* MOBILE */
+
+@media only screen and (max-width: 1000px)
+ {
+    #about-section  .text-wrap{
+        width: 100%;
+    
+    }
+
+    .headshot{
+        float: none;
+        display: inline-block;
+        margin: auto ;
+        position: static;
+    }
+
+    .text-wrap{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .section-subheading{
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 1em;
+    }
+
+    /* Navigation */
+    .nav-choice{
+        margin-left: 0;
+    }
+
+    .nav-li{
+        margin: 2rem;
+    }
+
+ }
