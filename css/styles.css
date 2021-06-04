@@ -14,7 +14,7 @@ body{
     margin: 0;
     width: 100%;
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/pic/galaxy.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../pic/galaxy.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ body{
     width: 100%;
     
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/pic/background3.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../pic/background3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,7 +255,7 @@ body{
     color: white;
     
     margin: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/pic/mountain.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../pic/mountain.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
