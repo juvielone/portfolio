@@ -369,6 +369,10 @@ body{
     .nav-li{
         margin: 0;
     }
+    
+    #header-section{
+     height: 35rem;
+    }
 
 }
 
@@ -381,6 +385,12 @@ body{
 
 @media only screen and (max-width: 1000px)
  {
+     
+     #header-section{
+     height: 35rem;
+    }
+     
+     
     #about-section  .text-wrap{
         width: 100%;
     
